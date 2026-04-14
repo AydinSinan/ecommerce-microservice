@@ -1,0 +1,98 @@
+############################################
+# GENERAL
+############################################
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+*.swo
+
+############################################
+# IDE / EDITORS
+############################################
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+
+############################################
+# JAVA / SPRING BOOT
+############################################
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Compiled files
+*.class
+
+# Logs
+logs/
+*.log
+
+# Spring Boot
+*.jar
+*.war
+*.ear
+*.zip
+
+# Application properties (sensitive)
+application.properties
+application.yml
+application-*.yml
+
+############################################
+# NODE.JS
+############################################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+coverage/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+############################################
+# TEST
+############################################
+/coverage/
+/test-output/
+
+############################################
+# OS FILES
+############################################
+*.pid
+*.seed
+*.pid.lock
+
+############################################
+# DOCKER
+############################################
+docker-compose.override.yml
+
+############################################
+# OPTIONAL (if using logs/db locally)
+############################################
+*.db
+*.sqlite
